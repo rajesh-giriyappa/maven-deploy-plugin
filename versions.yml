@@ -1,0 +1,48 @@
+latestHalyard: "1.44.1"
+latestSpinnaker: "1.26.6"
+versions:
+- version: "1.20.7"
+  alias: "Drive to Survive"
+  changelog: "https://gist.github.com/spinnaker-release/75d50c7b931f1089e710a0e9d1acf8c4"
+  minimumHalyardVersion: "1.32"
+  lastUpdate: 1595456564216
+- version: "1.19.14"
+  alias: "Gilmore Girls A Year in the Life"
+  changelog: "https://gist.github.com/spinnaker-release/cc4410d674679c5765246a40f28e3cad"
+  minimumHalyardVersion: "1.32"
+  lastUpdate: 1597362286133
+- version: "1.21.5"
+  alias: "Dark"
+  changelog: "https://gist.github.com/spinnaker-release/98c3bab183b507662a8f5524e54626d4"
+  minimumHalyardVersion: "1.32"
+  lastUpdate: 1607382545085
+- version: "1.22.6"
+  alias: "Anne"
+  changelog: "https://gist.github.com/spinnaker-release/e457272b5aac37a5c6512b80b0c53d5f"
+  minimumHalyardVersion: "1.32"
+  lastUpdate: 1611799917250
+- version: "1.23.7"
+  alias: "Hemlock Grove"
+  changelog: "https://gist.github.com/spinnaker-release/94280a2b615adccd975eed73359023ac"
+  minimumHalyardVersion: "1.32.0"
+  lastUpdate: 1613697930806
+- version: "1.26.6"
+  alias: "Disenchantment"
+  changelog: "https://gist.github.com/spinnaker-release/e3714a97bbdd3e7c3b4d92adec938e7f"
+  minimumHalyardVersion: "1.41"
+  lastUpdate: 1625100544812
+- version: "1.24.6"
+  alias: "Queen's Gambit"
+  changelog: "https://gist.github.com/spinnaker-release/25abcd046795c6f34bb2d8d4977f0415"
+  minimumHalyardVersion: "1.32"
+  lastUpdate: 1625172034511
+- version: "1.25.7"
+  alias: "Chilling Adventures of Sabrina"
+  changelog: "https://gist.github.com/spinnaker-release/83c1a4069029bfd79d11ad8e8bf1d326"
+  minimumHalyardVersion: "1.41"
+  lastUpdate: 1625261003453
+illegalVersions:
+- version: "1.2.0"
+  reason: "Broken apache config makes the UI unreachable"
+- version: "1.4.0"
+  reason: "UI does not load"
